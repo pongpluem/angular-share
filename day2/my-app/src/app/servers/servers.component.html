@@ -1,0 +1,17 @@
+<h3>
+  servers works!
+</h3>
+
+<input type="text" (input)="onUpdateServerName($event)">
+<br>
+
+<input type="text" [(ngModel)]="serverName">
+<br>
+
+<button [disabled] = "!allowNewServer" (click)="onCreatedServer()">Add Server</button>
+<p>{{allowNewServer}}</p>
+<p>{{ serverCreationStatus }}</p>
+<p>{{ serverName }}</p>
+
+<app-server></app-server>
+<app-server></app-server>

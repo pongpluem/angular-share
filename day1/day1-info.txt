@@ -1,0 +1,95 @@
+Angular
+1. Intro
+	- Single Page Application
+	- Version
+		- Angular 1 (Angular Js)===> 2010
+		- Angular 2, 6, 7 (Native) ===> 2016 new write code
+		
+2. Install the Angular CLI
+	- Node Js  ===> npm
+	- Updating npm
+		- "npm install -g npm" ===> Update npm version
+	- Updating the CLI
+		- "npm uninstall -g angular-cli @angular/cli"  ==> uninstall old version		
+		- "npm install -g @angular/cli"  ==> Install CLI
+		
+3. Create Project
+	- Create a workspace and initial application
+		- "ng new my-app" ==> Create folder "my-app" and initial file
+			- Angular routing?
+			- stylesheet format
+				- CSS
+				- Sass
+				- Less
+				- Stylus
+		- cd my-app
+		- Fix "angular.json" for .scss (If error)
+		- "ng serve"	===> Live server
+		
+		- Structure
+			====== File =======
+			- package.json	==> Dependencies list
+			
+			====== Folder ====
+			- e2e			==> Test module
+				- src
+			- node_modules	==> library
+			- src			==> Source Code
+				- app		==> Main App
+				- assets
+				- environment
+		
+		- app folder
+			- app.component.html
+			- app.component.scss
+			- app.component.ts
+			
+4. Edit your first Angular component
+	- app folder
+		- src/app/app.component.html
+		- src/app/app.component.ts
+		- src/app/app.component.scss
+	
+	- src/index.html
+
+5. import module (get/set)	
+	- src/app/app.component.html
+	- src/app/app.component.ts
+	- src/app/app.module.ts
+	
+6. TypeScript?
+
+7. Primeng (https://www.primefaces.org/primeng/#/)
+	- "npm install primeng --save"  	==> Add primeng to this app (my-app forlder)
+	- "npm install primeicons --save"  	==> Primeng icons
+	- "npm install @angular/animations --save"
+	
+	/// Style in angular.json (Verify)
+	- "node_modules/primeicons/primeicons.css",
+	- "node_modules/primeng/resources/themes/nova-light/theme.css",
+	- "node_modules/primeng/resources/primeng.min.css",
+
+	// Use button
+	- import {ButtonModule} from 'primeng/button';     ===> in app.module.ts
+
+	// add in import section
+	- ButtonModule
+
+8. Course Structure
+	- Intro
+	- Basic
+	- Component & DataBinding
+	- Directives
+	- Services & Dependency Injection
+	- Routing
+	- Observables
+	- Forms
+	- pipes
+	- http
+	- Authentication
+	- Optimization
+	- Deploy
+
+	
+
+		

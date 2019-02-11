@@ -1,0 +1,18 @@
+server.component.ts
+=======================
+serverId: number = 10
+serverStatus: string = "offline"
+
+getServerStatus(){
+    return this.serverStatus
+}
+
+-----------------------
+
+server.component.html
+=======================
+<!--<h1>The Server Component</h1>-->
+
+<h1>The {{ 'Server' === 'Server' ? '555' : '777' }} id {{ serverId }} is {{ getServerStatus() }}</h1>
+
+-----------------------

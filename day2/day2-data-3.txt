@@ -1,0 +1,12 @@
+servers.component.html
+=============
+<p>
+  servers works!
+</p>
+<app-server></app-server>
+<app-server></app-server>
+-----------------------
+
+app.component.html
+=================
+<app-servers></app-servers>

@@ -1,0 +1,31 @@
+servers.component.ts
+==========================
+export class ServersComponent implements OnInit {
+
+  allowNewServer: boolean = false
+
+  constructor() {
+    setTimeout(()=>{
+      this.allowNewServer = true
+    },2000)
+    
+   }
+
+  ngOnInit() {
+  }
+}
+--------------------------------
+
+servers.component.html
+================================
+<h3>
+  servers works!
+</h3>
+
+<button [disabled] = "!allowNewServer" >Add Server</button>
+<p>{{allowNewServer}}</p>
+
+<app-server></app-server>
+<app-server></app-server>
+
+--------------------------------

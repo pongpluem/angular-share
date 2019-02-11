@@ -1,0 +1,35 @@
+inline style
+servers.component.ts
+===========================
+ //styleUrls: ['./servers.component.scss']
+  styles: ['h3{color:red}']
+------------------------
+
+servers.component.html
+===========================
+<h3>
+  servers works!
+</h3>
+-------------------------
+
+
+selector
+attribute selector
+servers.component.ts
+======================
+selector: '[app-servers]'
+
+selector: '.app-servers',
+
+-----------------------
+
+app.component.html
+===================
+<!--<app-servers></app-servers>-->
+<div app-servers></div>
+
+<div class="app-servers"></div>
+-----------------------
+
+
+

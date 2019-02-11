@@ -1,0 +1,37 @@
+server.component.ts
+===================
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-server',
+  templateUrl: './server.component.html',
+})
+export class ServerComponent {  
+}
+-----------------------
+
+server.component.html
+===================
+<h1>The Server Component</h1>
+
+----------------------------
+
+
+app.module.ts
+=========================
+import { ServerComponent } from './server/server.component'
+
+declarations: [
+    AppComponent,
+	ServerComponent
+  ]
+ 
+-------------------- 
+
+app.component.html
+===================
+<h3>Hello App Component</h3>
+<hr>
+<app-server></app-server>
+
+---------------------

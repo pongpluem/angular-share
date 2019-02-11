@@ -1,0 +1,42 @@
+1. Component
+2. Create Component
+	- create folder "app\server"
+		- create file "server.component.ts"
+		- create file "server.component.html"		
+	- register in app module
+		- import
+		- declarations: [ ]
+		- update "app.component.html"
+		
+3. Create Component with CLI
+	- "ng generate component servers"
+	- "ng g c servers"
+	- update 
+		- "servers.component.html"
+		- "servers.component.ts"
+		- "app.component.html"
+
+4. @Component (app.component.ts)
+	- use inline style (html,css) 
+	- selector
+		- [app-servers]  ==> for attribute selector
+		- .app-servers  ==> for class selector
+
+5. String Interpolation
+	- {{ typescript variable, function or expression }}	===> can use variable, function or expression
+
+6. Property Binding
+	- [ property name ] = " typescript variable, function or expression "
+
+7. Event Binding
+	- (click)  ==> onClick()
+	- event
+
+8. Two way binding
+	- ngModel
+
+Remark. Arrow function
+   	- () => { ... } // no parameter
+    - x => { ... } // one parameter, an identifier
+	- (x, y) => { ... } // several parameters
+		
